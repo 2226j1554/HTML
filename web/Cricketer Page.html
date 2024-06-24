@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5500/web/index.html# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricketer Page</title>
+    <link rel="stylesheet" href="./Cricketer Page_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./Cricketer Page_files/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header bg-danger text-white p-3">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>K.L. Rahul</h1>
+                    <p>Kannur Lokesh Rahul (born 18 April 1992), commonly known as KL Rahul, is an Indian international cricketer who plays...<a href="http://127.0.0.1:5500/web/index.html#" class="text-white">more</a></p>
+                </div>
+                <div class="col-md-4 text-right">
+                    <img src="./Cricketer Page_files/klrahul-img1.png" class="img-fluid" alt="KL Rahul">
+                </div>
+            </div>
+        </div>
+        <div class="content bg-light p-3 mt-3">
+            <h3>IPL Records</h3>
+            <div class="card mb-3">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="./Cricketer Page_files/klrahul-img2.png" class="card-img" alt="KXIP vs RCB">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">KXIP vs RCB</h5>
+                            <p class="card-text">He scored an unbeaten 132 off just 69 balls against Royal Challengers Bangalore...<a href="http://127.0.0.1:5500/web/index.html#">more</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>Videos</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./Cricketer Page_files/klrahul-img3.png" class="card-img-top" alt="KL Rahul hits 337 for Karnataka">
+                        <div class="card-body">
+                            <p class="card-text">KL Rahul hits 337 for Karnataka</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./Cricketer Page_files/klrahul-img4.png" class="card-img-top" alt="Incredible Innings by KL Rahul">
+                        <div class="card-body">
+                            <p class="card-text">Incredible Innings by KL Rahul</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./Cricketer Page_files/klrahul-img5.png" class="card-img-top" alt="Single-handed win by KL Rahul">
+                        <div class="card-body">
+                            <p class="card-text">Single-handed win by KL Rahul</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <button class="btn btn-primary">View more</button>
+            </div>
+        </div>
+    </div>
+    <script src="./Cricketer Page_files/jquery-3.5.1.slim.min.js.download"></script>
+    <script src="./Cricketer Page_files/popper.min.js.download"></script>
+    <script src="./Cricketer Page_files/bootstrap.min.js.download"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
