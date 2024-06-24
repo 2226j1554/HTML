@@ -1,0 +1,21 @@
+.header {
+    background-color: #f56476;
+    color: white;
+}
+
+.content {
+    background-color: #f0f7ff;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
